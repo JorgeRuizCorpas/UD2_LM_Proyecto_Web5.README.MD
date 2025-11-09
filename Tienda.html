@@ -5,7 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
 </head>
+
 <body>
+    <h1>Compra de entradas</h1>
+    <nav>
+        <a href="#Partidazo">Partidazo</a>
+        <a href="#Tienda">Tienda</a>
+        <a href="#index">index</a>
+        
+    </nav>
+   
+<form>
+  <label>Nombre:<br>
+    <input type="text" name="nombre">
+  </label><br>
+
+  <label>Correo electrónico:<br>
+    <input type="email" name="email">
+  </label><br>
+
+  <label>Fecha compra entradas<br>
+    <input type="date" name="entrada">
+  </label><br>
+
+  <label>Adultos:<br>
+    <input type="number" name="adultos" min="1" value="1">
+  </label><br>
+
+  <label>Niños:<br>
+    <input type="number" name="ninos" min="0" value="0">
+  </label><br>
+
+  <label>Asientos<br>
+    <select name="habitacion" required>
+      <option value="">--Seleccione--</option>
+      <option>Fondos norte/sur</option>
+      <option>Preferencia</option>
+      <option>Tribuna/Anfiteatro</option>
+    </select>
+  </label><br>
+  <label>
+    <input type="checkbox" name="cancelacion">
+    Acepto la política de cancelación
+  </label><br>
+
+  <button type="submit">Confirmar Entrada</button>
+  <button type="reset">Borrar</button><br><br><br>
+
+  <div class="producto">
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQYTNeMhRSgeaBDKNKhqO-pQR4IoHJVa_s9kw2pNwRXtVZ7VIfF5JSKQYKh0mN16-qf4cvpnCfEFYmkPihjeLphKXzaEAibmBDkh-wNREp0cRKF_ISmAOGPrkr3nHmHpNSJIx2HxQ&usqp=CAc"><br>
+<h2>Camiseta Oficial</h2>
+<p>Precio: 25€</p>
+<button class="submit">Comprar</button>
+</div>
+
+
+<div class="producto">
+<img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTdnP4xdYAqI8M5ZoDvLBPrfzyLmoFchtBxGDXnFrgNn6ZN8Jylli2wLtdbWUROk__oSSK8_rRKGFakQ1zTGdyzx9ybF-KR3B10nZEms9jUuvj_hbWPSrLAkCkQPqgiOT0LS55gGjY&usqp=CAc" alt="Balón Selección Española"><br><br>
+<h2>Balón Oficial</h2>
+<p>Precio: 20€</p>
+<button class="submit">Comprar</button>
+</div>
     
 </body>
 </html>
