@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+    background-color: #fd2b2b;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    border: solid 4px yellow;
+    background-color: #e6b800;
+}
+nav {
+    background-color: #f77373;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: solid 2px black;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin:15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+form {
+    background-color: rgb(236, 123, 123);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+label {
+   
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+
+
+button {
+    background-color: #c60b1e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a00917;
+}
+
+.producto {
+    background-color: rgb(228, 233, 188);
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 5px red;
+    
+}
+
+.producto img {
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h2 {
+    color: #c60b1e;
+}
+
+.producto p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.submit {
+    background-color: #ffc400;
+    color: black;
+}
+
+.submit:hover {
+    background-color: #e6b800;
+}
