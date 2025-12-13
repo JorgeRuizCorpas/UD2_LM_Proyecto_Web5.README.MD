@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fdb7b7;
+    color: #333;
+}
+
+nav {
+    background-color: #c60b1e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin:15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffde70;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+}
+.dato {
+    margin: 10px 20px;
+    font-size: 16px;
+}
+p {
+    margin: 20px;
+}
+.marcador {
+    background-color: #000;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    border: solid 3px gold;
+}
+.alineacion {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.alineacion h3 {
+    color: #c60b1e;
+    border-bottom: 2px solid #c60b1e;
+    padding-bottom: 5px;
+}
+
+
+.alineacion ul li {
+    padding: 5px ;
+    border-bottom: 1px solid #ddd;
+}
+
+.alineacion img {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
