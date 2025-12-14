@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #c60b1e; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  
+}
+
+/* Títulos */
+h2 {
+  color: #c60b1e;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #c60b1e;
+  padding-bottom: 5px;
+}
+
+
+p {
+  margin-bottom: 15px;
+}
+
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+
+section {
+  margin-top: 30px;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #c60b1e;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffd700; 
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer b {
+  color: #ffd700;
+}
